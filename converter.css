@@ -1,0 +1,86 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: "Roboto Mono", monospace;
+  background-image: url("https://img.freepik.com/fotos-gratis/close-up-em-objetos-de-educacao-e-economia_23-2149113525.jpg?w=740");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+}
+
+.page-title {
+  color: #000;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #000;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+input {
+  margin: 12px;
+  padding: 6px;
+  border-radius: 5px;
+}
+
+label {
+  color: black;
+}
+
+button {
+  width: 30%;
+  margin-top: 12px;
+  padding: 4px 8px;
+  border-radius: 10px;
+  background: #ccc;
+  text-align: left;
+}
+
+.botao {
+  text-align: center;
+  width: 20%;
+}
+
+.us {
+  background-image: url("https://flagcdn.com/16x12/us.png");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: 20%;
+}
+
+.eu {
+  background-image: url("https://flagcdn.com/16x12/eu.png");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: 20%;
+}
+
+.gb {
+  background-image: url("https://flagcdn.com/16x12/gb.png");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: 20%;
+}
+
+h2 {
+  color: #000;
+  font-size: 30px;
+}

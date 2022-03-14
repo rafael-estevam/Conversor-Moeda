@@ -1,0 +1,34 @@
+<html>
+  <head>
+    <title> Imersão Dev Alura - Aula 02</title>
+    <link rel="stylesheet" href="converter.css">
+    <script type="text/javascript" src="converter.js"></script>
+  </head>
+
+  <body>
+    <div class="container">
+
+			<h1 class="page-title">
+				Conversor de moedas
+			</h1>
+			<p class="page-subtitle">
+				Descubra os valores em Dolár, Euro ou Libra Esterlina!
+			</p>
+
+			<img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt=""><br><br>
+
+			<label for="moeda">Insira o valor em R$</label><br>
+			<input type="number" id="valor" size="2" /><br>
+			<button type="submit" class="us" id="us" onclick="converterUs()">Converter->USD</button>
+			<button type="submit" class="eu" id="eu" onclick="converterEu()">Converter->EUR</button>
+			<button type="submit" class="gb" id="gb" onclick="converterGb()">Converter->GBP</button><br>
+			<input disabled id="valorConvertido"></input><br>
+			<button type="button" onclick="Limpar()" class="botao">Limpar</button>
+
+		</div>
+
+		<a href="https://alura.com.br/" target="_blank">
+		<img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+
+	</body>
+</html>
