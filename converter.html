@@ -2,7 +2,7 @@
   <head>
     <title> Imersão Dev Alura - Aula 02</title>
     <link rel="stylesheet" href="converter.css">
-    <script type="text/javascript" src="converter.js"></script>
+    <script type="text/javascript" src="converter.js" defer></script>
   </head>
 
   <body>
@@ -19,9 +19,14 @@
 
 			<label for="moeda">Insira o valor em R$</label><br>
 			<input type="number" id="valor" size="2" /><br>
-			<button type="submit" class="us" id="us" onclick="converterUs()">Converter->USD</button>
-			<button type="submit" class="eu" id="eu" onclick="converterEu()">Converter->EUR</button>
-			<button type="submit" class="gb" id="gb" onclick="converterGb()">Converter->GBP</button><br>
+
+			<select class="seletor" id="seletorMoeda" onchange="atualizaMoeda()">
+				<option value="1" selected id="flagUs">USD</option>
+				<option value="2" id="flagEu">EUR</option>
+				<option value="3" id="flagGb">GBP</option>
+			</select>
+
+			<button type="submit" onclick="Converter()">Converter</button><br>
 			<input disabled class="resultado" id="valorConvertido"></input><br>
 			<button type="button" onclick="Limpar()" class="botao">Limpar</button>
 
