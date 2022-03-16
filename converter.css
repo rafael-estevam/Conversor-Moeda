@@ -17,6 +17,7 @@ body {
 .page-title {
   color: #000;
   margin: 0 0 5px;
+  text-shadow: 1px 1px white;
 }
 
 .page-subtitle {
