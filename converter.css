@@ -20,8 +20,15 @@ body {
 }
 
 .page-subtitle {
-  color: #000;
+  font-size: 18px;
+  text-shadow: 1px 1px black;
+  color: white;
   margin-top: 5px;
+}
+
+label {
+  color: #000;
+  text-shadow: 1px 1px white;
 }
 
 .page-logo {
@@ -39,10 +46,8 @@ input {
   margin: 12px;
   padding: 6px;
   border-radius: 5px;
-}
-
-label {
-  color: black;
+  width: 180px;
+  font-size: 14px;
 }
 
 button {
@@ -51,10 +56,6 @@ button {
   padding: 4px 8px;
   border-radius: 10px;
   background: #ccc;
-  text-align: left;
-}
-
-.botao {
   text-align: center;
   width: 20%;
 }
@@ -80,7 +81,12 @@ button {
   background-size: 20%;
 }
 
+.seletor {
+  padding: 2px 4px;
+  border-radius: 5px;
+}
+
 .resultado {
-  color: #000;
-  font-size: 18px;
+  font-weight: bold;
+  width: 180px;
 }
