@@ -61,27 +61,6 @@ button {
   width: 20%;
 }
 
-.us {
-  background-image: url("https://flagcdn.com/16x12/us.png");
-  background-position: right;
-  background-repeat: no-repeat;
-  background-size: 20%;
-}
-
-.eu {
-  background-image: url("https://flagcdn.com/16x12/eu.png");
-  background-position: right;
-  background-repeat: no-repeat;
-  background-size: 20%;
-}
-
-.gb {
-  background-image: url("https://flagcdn.com/16x12/gb.png");
-  background-position: right;
-  background-repeat: no-repeat;
-  background-size: 20%;
-}
-
 .seletor {
   padding: 2px 4px;
   border-radius: 5px;
