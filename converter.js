@@ -6,28 +6,36 @@ var flagList = [
 
 var moeda = atualizaMoeda();
 var elemento = document.getElementById("valor");
+elemento.focus();
 
 function atualizaMoeda() {
 	let select = document.querySelector("#seletorMoeda");
 	let opçãoMoeda = select.options[select.selectedIndex];
 
 	moeda = opçãoMoeda.value;
-  return moeda;
+ 	return moeda;
   //flag.innerHTML = `<img src="${flagList[moeda-1]}" >`
 }
 
 function Converter() {
-	switch (moeda) {
-		case "1":
-			converterUs();
-			break;
-		case "2":
-			converterEu();
-			break;
-		case "3":
-			converterGb();
-			break;
+	if (elemento.value==""||elemento.value==null){
+		alert("Por favor, adicionar um valor válido.");
+		elemento.focus();
 	}
+	else {
+		switch (moeda) {
+			case "1":
+				converterUs();
+				break;
+			case "2":
+				converterEu();
+				break;
+			case "3":
+				converterGb();
+				break;
+		}
+	}
+	elemento.focus();
 }
 
 function converterUs() {
@@ -70,5 +78,5 @@ function converterGb() {
 }
 
 function Limpar (){
-	document. location. reload()
-  }
+	window.location.href = window.location.href;
+}
